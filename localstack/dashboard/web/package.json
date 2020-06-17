@@ -15,7 +15,7 @@
     "showdown": "0.3.1",
     "@atlassian/aui": "6.0.1",
     "angular-aui": "whummer/angular-aui#feat/aui-toggle",
-    "jsplumb": "2.1.4",
+    "jsplumb": "2.13.2",
     "dagre": "0.7.4",
     "angular-resizable": "1.2.0",
     "angular-ui-layout": "1.4.2",
