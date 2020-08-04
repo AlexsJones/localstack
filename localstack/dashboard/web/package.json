@@ -19,6 +19,12 @@
     "dagre": "0.7.4",
     "angular-resizable": "1.2.0",
     "angular-ui-layout": "1.4.2",
-    "text": "requirejs/text"
-  }
+    "text": "requirejs/text",
+    "snyk": "^1.369.2"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
