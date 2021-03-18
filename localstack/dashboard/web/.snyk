@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - '@atlassian/aui > phantomjs > request > hawk > hoek':
+        patched: '2021-03-13T14:10:13.800Z'
+    - '@atlassian/aui > phantomjs > request > hawk > boom > hoek':
+        patched: '2021-03-13T14:10:13.800Z'
+    - '@atlassian/aui > phantomjs > request > hawk > sntp > hoek':
+        patched: '2021-03-13T14:10:13.800Z'
+    - '@atlassian/aui > phantomjs > request > hawk > cryptiles > boom > hoek':
+        patched: '2021-03-13T14:10:13.800Z'
+  'npm:request:20160119':
+    - '@atlassian/aui > phantomjs > request':
+        patched: '2021-03-13T14:10:13.800Z'
+  'npm:tough-cookie:20170905':
+    - '@atlassian/aui > phantomjs > request > tough-cookie':
+        patched: '2021-03-13T14:10:13.800Z'
+  'npm:tunnel-agent:20170305':
+    - '@atlassian/aui > phantomjs > request > tunnel-agent':
+        patched: '2021-03-13T14:10:13.800Z'
